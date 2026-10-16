@@ -1,22 +1,43 @@
-# Fashion-MNIST Image Classification
+# Fashion-MNIST Neural Network Experiments
 
-By Zenith Anthony Dabarera. SIT720 Machine Learning coursework.
+Investigate how multilayer-perceptron depth and width affect classification of clothing images.
 
-Fashion-MNIST multilayer perceptron experiments.
+**Python · scikit-learn · MLPClassifier · Fashion-MNIST**
 
-## Files
+## Project at a glance
+
+Work in progress: the uploaded notebook contains no saved execution outputs. No measured accuracy or completed experiment is claimed.
+
+## Technical work
+
+- Fashion-MNIST image loading and preprocessing
+- Baseline multilayer perceptron
+- Depth and width experiments
+- Planned model comparison and error analysis
+
+## Explore the evidence
 
 - [SIT720_10_2C_Fashion_MNIST_Zenith_Anthony.ipynb](SIT720_10_2C_Fashion_MNIST_Zenith_Anthony.ipynb)
 - [SIT720_10_2C_Report_PreRun_Zenith_Anthony.pdf](SIT720_10_2C_Report_PreRun_Zenith_Anthony.pdf)
 
-## Execution status
+## Run locally
 
-0 of 15 code cells have stored execution counts. Original notebook outputs are preserved; this publication did not rerun experiments. The notebook and pre-run report remain work in progress.
+```bash
+python -m venv .venv
+# Activate the environment, then:
+python -m pip install jupyter numpy pandas matplotlib scikit-learn reportlab
+jupyter notebook
+```
 
-## Running
+The notebook downloads Fashion-MNIST through its configured URLs when needed. Allow time for training and network downloads.
 
-Open the notebook in Jupyter or Google Colab and follow its dataset-loading instructions. Install the packages imported in the notebook. Input datasets may require separate download.
+Open the linked notebook and run the cells in order. Package names reflect the source imports; a fresh environment was not tested during this documentation update. Dataset downloads require internet access.
 
-## Scope
+## Limitations and status
 
-Educational experiments; no production or clinical validation is claimed. The uploaded notebooks and reports determine the actual project scope, which may differ from older assessment briefs.
+Training and plotting still need execution and verification. This repository demonstrates the planned workflow rather than a validated model.
+
+The notebook is unexecuted; see the report for the intended analysis.
+
+**Author:** Zenith Anthony Dabarera · SIT720 Machine Learning  
+[AI/ML portfolio](https://github.com/Zenith1997)
